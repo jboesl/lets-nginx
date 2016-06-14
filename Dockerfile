@@ -1,5 +1,4 @@
-FROM nginx:alpine
-MAINTAINER Ash Wilson <smashwilson@gmail.com>
+FROM jboesl/docker-nginx-headers-more
 
 #We need to install bash to easily handle arrays
 # in the entrypoint.sh script
